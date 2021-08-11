@@ -14,7 +14,7 @@ app.use(allowCrossDomain);
 
 // proxy 配置
 const proxyOptions = { 
-  target: 'http://lms-dev.h66.cn:80/', 
+  target: 'http://localhost:9001/', 
   changeOrigin: true,
   pathRewrite: {
     '^/api' : ''
